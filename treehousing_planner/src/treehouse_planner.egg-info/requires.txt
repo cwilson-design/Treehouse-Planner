@@ -1,4 +1,0 @@
-matplotlib>=3.9
-matplotlib-inline
-ipython
-pytest
