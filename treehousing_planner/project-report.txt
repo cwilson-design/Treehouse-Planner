@@ -1,0 +1,142 @@
+Second Report for a Student Chosen Project
+Conner Wilson 
+
+Do the following:
+
+1. In the table below, list the dates, amount of time spent, and
+description of the work that you did on your project. Follow the example
+that is in the first row of the table below. Include the time you spent
+doing any of the following:
+    a. discussing your project with your teacher, tutor, or fellow students
+    b. researching by reading articles and watching applicable videos
+    c. designing your project by drawing diagrams and other applicable documents
+    d. writing experimental code
+    d. writing code for your project
+    e. writing test functions
+    f. debugging your code
+    g. any other activity that helped you complete your project
+
+            Time Spent
+   Date       (hours)   Description of Work
+----------  ----------  -------------------------
+
+2024-07-01      4       -Drew diagrams to conceptualize how my program 
+                        would work. Researched treehouse building.
+2024-07-01      3       -Took test bearing and distance measurements of
+                        a plot of trees in my backyard. I ussed this to 
+                        draw/conceptualize how I could graph them.
+2024-07-02      7       -Read a github article about returning multiple
+                        values from functions
+                        -Learned the basics of ploting graphs
+                        from mathplotlib.org and read pyplot turorials
+                        -Researched the graph equation of a circle, and 
+                        how to use matplotlib to represent them.
+                        - Rewrote the circle graph function to genetate
+                        x and y coordinates, and created a function
+                        to plot a circle. 
+                        - Read an article about solving for non
+                        right triagles.
+                        - Degugged the fact that when I tested plotting
+                        of circles, pyplot showed an elipse. After much 
+                        time spent, I discovered that my equation was not 
+                        wrong, I just needed to add plt.(axis='equal').
+                        - Learned about subplots in mathplotlib.
+2024-07-03     8        - Read an article about the intersection of circles
+                        to find out if I could use as method of triangulation.
+                        - Studied my intro to programming notes on working with 
+                        parallel lists.
+                        - Debugged 'none' type object not subscriptable error.
+                        - Read about unpacking a tuple
+                        - Changed what a few of my functions returned based on
+                        arguments passed. 
+                        - Researched proper format of returning vaules with 
+                        logic if elif else statements.
+2024-07-04      8       - Studied my intro to programming notes on booleans.
+                        - read documentation on isinstance()
+                        - Debugging some of my functions that contained loops
+                        returning 'None'
+                        - Checked logic of current program by typing up a call
+                        graph. Re-wrote logic and a few more functions.
+                        - tested my tree plotting functions were displayed 
+                        correctly on mathplot plt in their angles to one another.
+2024-07-05      7       - wrote measurement conversion functions. 
+2024-07-06      7       - studied documentation strings. 
+                        - added code to display plot labels. 
+2024-07-08      5       - experiemented with code to plot multiple mathplot
+                        figures in a loop. 
+2024-07-09      11      -Incorrporated exception handling into all functions,
+                        including dealing with user input, filenotfounderrors,
+                        index errors, and tested my functions with unexcpected
+                        inputs to see and handle the exceptions they raised.
+                        - Studied articles about Pep8 style. 
+                        - Debugged local variable access.  
+                        - Took more bearing measurements outside to test my 
+                        methods. Rewrote a lot of my code after discovering 
+                        that the way I was using bearing measurements on 
+                        my plot figures displayed tree locations incorrectly.  
+2024-07-10      6       -Added more exception handling.
+                        -Wrote code to logically loop under multiple 
+                        conditions.
+
+2024-07-11      5       -Troubleshooted issues with my python environment.
+                        -Studied articles about virtual environments 
+                        in vs code.
+                        -Learned about working directory, and directories.
+2024-07-12      9       -More reserch about paths, as I wrote code to 
+                        locate files within my OS.
+                        -Added dictionaries as a method of storing data, 
+                        instead of relying only on accessing a file. 
+                        -Read a blog about treehouse construction. 
+2024-07-13      6       -researched Pandas Dataframes as a method of 
+                        accessing and reading a csv file from google drive. 
+                        -Read multiple stack overflow discusions about 
+                        vectorization. 
+2024-07-15      8       - wrote code to save matplot figures in a multi-page
+                        pdf. 
+                        - Researched changing dpi of Matplotlib figures
+                        - Rewrote code to not immedietly plot trees when
+                        their xypoints are created in a loop, but instead 
+                        store them in a dictionary. This was to make it easier
+                        to make two graphs, one with distances, and one without. 
+2024-07-16      9       - Read more matplotlib documentation about text boxes
+                        and anchoring. 
+                        - Created functions to get number data and text data 
+                        from a user and replaced instances in my code where I 
+                        received and stored input from UI with these functions.
+2024-07-17      9       - Wrote test functions, created dummy files to test
+                        my locate file in directory function. Wrote a test 
+                        function.
+                        - Read official pytest documentations about testing 
+                        functions that handle exceptions. 
+2024-07-18      6       - Researched pytest parameterization. 
+                        - wrote test functions to test ft-inches conversion'
+                        function 
+                        - Commented out user input and created temporary 
+                        dictionaries to quickly test my entire program. 
+2024-07-19      10      - Wrote test functions for getting and formatting
+                        required measurements that the user needs to take.
+                        - Lots, and lots, and lots of debugging my test 
+                        functions. 
+                        - Wrote test functions for testing that the 
+                        triangulation of trees plotted is accurate. This tests
+                        my code, and also user input accuracy. Wrote 
+                        use_law_of_cosines_to_find_angles, 
+                        get_obtuse_triangle_sides_from_coordinates,
+                        test_inner_angles_from_bearings,
+                        test_inner_angles_from_distances,
+                        get_inner_angles_from_bearings
+2024-07-20      9       -Realized that the check if real triangle function
+                        that tests the triangulation of each tree plotted
+                        from a bearing measurement from tree 1 is really not
+                        testing anything, but is more of a redundant check 
+                        that my functions work. To fix this I added a function 
+                        use_cosines_to_check_3_trees which gets the center 
+                        points of the trees ploted from a dictionary, finds 
+                        the distance between them, and uses the law of cosines 
+                        to ensure that the center points of the circles are
+                        accurate.  
+undocumented additional 11 hours. 
+
+2. In Canvas, submit this completed text file, your Python program, your
+Python test file, and any project data files such as .txt and .csv files and
+link to video walkthrough if needed.

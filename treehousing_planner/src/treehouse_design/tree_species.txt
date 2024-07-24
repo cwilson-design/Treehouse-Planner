@@ -1,0 +1,34 @@
+Madrona, ideal
+Maple, ideal
+Monkey Pod, ideal
+Oak, ideal
+Redwood, ideal
+Sequoia, ideal
+Spruce, ideal
+Sycamore, ideal
+Walnut, ideal
+Beech, ideal
+Cedar, ideal
+Chestnut, ideal
+Cypress, ideal
+Fir, ideal
+Douglas Fir, ideal
+Eastern Hemlock, ideal
+Hickory, ideal
+Live Oak, ideal
+Apple, acceptable
+Ash, acceptable
+Basswood, acceptable
+Birch, acceptable
+Elm, acceptable
+Eucalyptus, acceptable
+Ironwood, acceptable
+Hackberry, acceptable
+Hornbeam, acceptable
+Pine, acceptable
+Poplar, acceptable
+Western Hemlock, acceptable
+Cottonwood, unsuitable
+Palm, unsuitable
+Western Red Alder, unsuitable
+Willow, unsuitable

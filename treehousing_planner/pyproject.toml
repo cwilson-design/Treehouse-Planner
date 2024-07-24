@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=71.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "treehouse-planner"
+version = "0.0.2"
+authors = [
+  {name="Conner Wilson", email="cwilson022@icloud.com" }
+]
+description = "A drafting tool for treehouse construction"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib>=3.9",
+    "matplotlib-inline",
+    "ipython",
+    "pytest"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/cwilson-design/Treehouse-Planner"
+

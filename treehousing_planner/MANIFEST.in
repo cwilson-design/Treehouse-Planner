@@ -1,0 +1,4 @@
+include src/tests/test_files/*.txt
+include src/tests/test_files/*.png
+include src/treehouse_design/tree_species.txt
+include src/treehouse_design/layout_images/*.txt
