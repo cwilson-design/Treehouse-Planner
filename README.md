@@ -46,7 +46,7 @@ Follow these steps to get started with the Treehouse Planner:
 
 ### Installation
 
-1. ## Package Installation
+1. **Package Installation**
 
 You can install Treehousing Planner tool via pip from PyPI:
 
