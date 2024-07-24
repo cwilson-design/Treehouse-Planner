@@ -1,4 +1,4 @@
-# Treehouse Planner  
+# :deciduous_tree: Treehouse Planner :evergreen_tree:
 
 The Treehouse Planner is designed to assist you in the initial planning phase of building an amazing treehouse. Whether you're evaluating trees for suitability, assessing tree safety, or drafting accurate scaled layouts for platforms, beams, walls, and posts, this tool aims to streamline your treehouse construction process.
 
@@ -101,7 +101,6 @@ The program will guide you through the steps for evaluating trees, assessing saf
 
 Navigate to the `src/tests/` directory and run the `test_treehouse_draft.py` script:
 
-    ```bash
+    
     cd src/tests
     python test_treehouse_draft.py
-    ```
