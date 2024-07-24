@@ -137,6 +137,59 @@ doing any of the following:
                         accurate.  
 undocumented additional 11 hours. 
 
+'''
+        The 'get_right_triangle_sides_from_coordinates' function 
+    finds the expected hypotenuse (distance in our case) of a right 
+    triangle with points (0,0) and (h,k), 
+    where (h,k) is the centerpoint of a tree calculated from:
+        1.the given bearing measurement taken from (0,0) and 
+        2.the known distance between (0,0) and (h,k). 
+    The hypotenuse is the distance between these two points. 
+    The 'find_tree_center_xy_point' is the function that returns (h,k)
+    with the input of one given point, the distance and bearing
+    measurement between that point and (h,k). 
+                            |
+                            | 
+     (0,0)            (0,0) . ) b    b = bearing
+         |\                 |\
+         | \                | \
+         |  \ hyp           |  \ d   d = distance
+         |   \              |   \
+         |____\             |____\
+    (0,k)     (h,k)               (?,?)
+    
+
+    By comparing the expected length of the hypotenuse
+    to the actual distance between two trees, we are able to verify 
+    that (h,k) is accurate, thereby asserting the accuracy of the 
+    bearing measurement taken.
+
+    The check_if_real_triangle_function verifies that
+    adjacent side squared, plus the oppisite side squared returned 
+    from the 'get_right_triangle_sides_from_coordinates' function 
+    is equal to the distance squared. 
+
+    Test if distances between trees yield inner angles with a
+    sum of 180 degrees.
+
+    This function calls the use_law_of_cosines_to_find_angles 
+    function to return the acute angles (in degrees) of a triangle 
+    that has side lengths equal to the distances between trees.  
+    The vaules returned are converted to degrees and their sum
+    is compared to the excpected sum of 180 degrees.
+
+               B beta           
+              /\
+            c/  \
+    alpha A /    \ a
+            `     \
+              b`   \
+                  ` \
+                     C gamma
+  
+'''
+
+
 2. In Canvas, submit this completed text file, your Python program, your
 Python test file, and any project data files such as .txt and .csv files and
 link to video walkthrough if needed.
