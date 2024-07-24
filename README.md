@@ -50,9 +50,9 @@ Follow these steps to get started with the Treehouse Planner:
 
 You can install Treehousing Planner tool via pip from PyPI:
 
-```bash
-pip install treehouse-planner
-```
+
+    pip install treehouse-planner
+
 
 2. **Install Dependencies:**
 
@@ -64,10 +64,10 @@ Ensure you have Python 3.x and `pip` installed.
 
 Navigate to the `src/treehouse_design/` directory and run the `treehouse_layout.py` script:
 
-    ```bash
+    
     cd src/treehouse_design/
     python treehouse_layout.py
-    ```
+
 
 2. **Follow Program Instructions:**
 
