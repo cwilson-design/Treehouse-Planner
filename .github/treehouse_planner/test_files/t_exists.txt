@@ -1,0 +1,28 @@
+{
+    Tree Species: [Red wood, PAlm, Douglasfir, Oak, willow],
+    Tree circumferences(in): [69, ]
+
+}
+
+
+
+Bearings
+{
+    'bearing_1_to_2': 161, 
+    'bearing_1_to_3': 210, 
+    'bearing_1_to_4': 251,
+    'bearing_1_to_5': 239,
+}
+Distances
+{
+    'd_1_to_2': 6 * 40
+    'd_1_to_3': 4.5 * 40
+    'd_1_to_4': 3.5 * 40
+    'd_1_to_5': (2 + (1/8)) * 40
+    'd_2_to_3': 4.5
+    'd_2_to_4': (6 + 15/16)
+    'd_2_to_5': (5 + 15/16)
+    'd_3_to_4': 3
+    'd_3_to_5': (2 + 7/8)
+    'd_4_to_5': 1.5
+}
