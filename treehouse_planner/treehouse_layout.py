@@ -1819,18 +1819,19 @@ def get_number_of_trees_from_user():
                 if num_ans.lower() == 'no':
                     print('\nPlease restart the program and try again. ')
                     quit()
-            elif int(number_of_trees) > 5:
-                print('The number of trees entered exceeds the limit.')
+            elif int(number_of_trees) > 5 or int(number_of_trees) <= 0:
+                if int(number_of_trees) <= 0:
+                    print('The number of trees must be 1 or greater.')
+                else:
+                    print('The number of trees entered exceeds the limit.')
                 ans = input(
                     'Would you like to try again with fewer trees? '
                     '(yes/no/exit): '
                 )
-            elif int(number_of_trees) <= 0:
-                print('The number of trees must be 1 or greater.')
-                ans = input(
-                    'Would you like to try again with more trees? '
-                    '(yes/no/exit): '
-                )
+                if ans.lower() == 'no' or ans.lower() == 'exit':
+                    quit()
+                if ans.lower() == 'yes':
+                    pass
             else:
                 number_of_trees = int(number_of_trees)
                 break
